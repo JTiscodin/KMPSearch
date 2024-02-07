@@ -33,7 +33,7 @@ const Form = ({ changeData }) => {
 
     console.log(data)
     changeData(data);
-    await axios.post("http://localhost:3000/", data)
+    // await axios.post("http://localhost:3000/", data)
     navigate("/password");
   };
 
